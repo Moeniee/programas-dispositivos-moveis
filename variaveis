@@ -1,0 +1,11 @@
+fun main() {
+    val pipoca = 5
+    val hotdog = 7
+    var clientes = 10
+    var resultado = 0
+    
+    resultado = clientes - 2
+    
+    
+    println(resultado)
+}
