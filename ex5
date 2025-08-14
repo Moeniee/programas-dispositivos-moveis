@@ -1,0 +1,7 @@
+fun main() {
+    var clientes = 10
+    clientes -= 2
+    println("Com a saida: $clientes disponiveis")
+    clientes += 3
+    println("Com a chegada: $clientes disponiveis")
+}
