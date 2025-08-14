@@ -1,0 +1,5 @@
+fun main() {
+    val nome = "Maria"
+    val ano = 2005
+    println("$nome nasceu em $ano")
+}
