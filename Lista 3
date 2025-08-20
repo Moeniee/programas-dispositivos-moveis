@@ -1,0 +1,7 @@
+fun main() { // main
+    val frutas = listOf("Maçã", "Banana", "Laranja", "Manga") // criação  de uma lista
+    
+    for (i in 0 until frutas.size){ // for de i do 0 até o tamanha contido em frutas
+        println("Fruta #$i: ${frutas[i]}") // println que imprime 4 vezes pela mascara $ onde o o for ta passando no i e frutas, resumo o indice que ele está acessando
+    }
+}
