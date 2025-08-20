@@ -1,0 +1,7 @@
+fun main() {
+    val apenasLeituraMenuSuco = mapOf("Pera" to 100, "Kiwi" to 190, "Laranja" to 100)
+    println(apenasLeituraMenuSuco)
+    
+    val menuSucos: MutableMap<String, Int> = mutableMapOf("Pera" to 100, "Kiwi" to 190, "Laranja" to 100)
+    println(menuSucos)
+}
