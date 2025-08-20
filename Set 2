@@ -1,0 +1,8 @@
+fun main() {
+    val frutas: MutableSet<String> = mutableSetOf("Manga", "Laranja", "Tangerina", "Manga", "Uva", "Uva")
+    println(frutas)
+    
+    frutas.add("Acerola")
+    println(frutas)
+    println("Esse conjuto tem ${frutas.count()} itens")
+}
