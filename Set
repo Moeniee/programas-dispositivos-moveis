@@ -1,0 +1,7 @@
+fun main() { // main
+    val apenasLeituraFrutas = setOf("Abacate", "Abacate", "Banana", "Cereja", "Cereja", "Cereja")
+    println(apenasLeituraFrutas)
+    
+    val frutas: MutableSet<String> = mutableSetOf("Laranja", "Laranja", "Laranja", "Tangerina", "Laranja", "Uva", "Laranja",)
+    println(frutas)
+}
