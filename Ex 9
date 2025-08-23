@@ -1,0 +1,10 @@
+fun main() {
+    val obj = "3"
+    
+    when (obj){
+        "1" -> println("Um")
+        "2" -> println("Dois")
+        "Teste" -> println("Passou")
+        else -> println("Nao passou")
+    }
+}
