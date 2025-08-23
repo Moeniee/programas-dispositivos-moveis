@@ -1,0 +1,11 @@
+fun main() {
+    val statusLuzTransito = "Erro" // A variavel statusLuzTransito recebe "Erro"
+    
+    val acaoTransito = when (statusLuzTransito){ // acaoTransito recebe o que retonar do fluxo de controle contido em statusLuzTransito
+        "Verde" -> "Siga" // se em statusLuzTransito tivesse recebido "Verde" o fluxo de controle retornaria "Siga" em acaoTransito
+        "Amarelo" -> "Atencao" // se em statusLuzTransito tivesse recebido "Amerelo" o fluxo de controle retornaria "Atencao" em acaoTransito
+        "Vermelho" -> "Pare" // se em statusLuzTransito tivesse recebido "Vermelho" o fluxo de controle retornaria "Pare" em acaoTransito
+        else -> "Mal funcionamento" // Qualquer outra coisa contida em statusLuzTransito retornaria "Mal funcionamento" contido em acaoTransito
+    }
+    println(acaoTransito) // printa o que esta contido em acaoTransito
+}
