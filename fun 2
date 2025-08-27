@@ -1,0 +1,6 @@
+fun imprimeMensagem(autor: String, mensagem: String){
+    println("[$autor] $mensagem")
+}
+fun main() {
+    imprimeMensagem(autor = "Samuel", mensagem = "bom trabalho!")
+}
